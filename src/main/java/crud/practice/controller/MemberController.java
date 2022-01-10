@@ -53,6 +53,8 @@ public class MemberController {
 
             memberRepository.save(selectMember);
         });
+
+
     }
 
     /* delete */
