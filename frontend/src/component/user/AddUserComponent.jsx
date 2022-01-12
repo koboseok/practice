@@ -12,7 +12,6 @@ class AddUserComponent extends Component {
 
         this.state = {
             name: '',
-            pwd: '',
             f_name: '',
             l_name: '',
             age: '',
@@ -33,7 +32,6 @@ class AddUserComponent extends Component {
 
         let user = {
             name: this.state.name,
-            pwd: this.state.pwd,
             f_name: this.state.f_name,
             l_name: this.state.l_name,
             age: this.state.age,
@@ -63,8 +61,7 @@ class AddUserComponent extends Component {
                     <TextField type="text" placeholder="please input your username" name="name"
                                fullWidth margin="normal" value={this.state.name} onChange={this.onChange}/>
 
-                    <TextField type="password" placeholder="please input your password" name="pwd"
-                               fullWidth margin="normal" value={this.state.pwd} onChange={this.onChange}/>
+                    
 
                     <TextField placeholder="please input your first name" name="f_name"
                                fullWidth margin="normal" value={this.state.f_name} onChange={this.onChange}/>
