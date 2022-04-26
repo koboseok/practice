@@ -61,8 +61,6 @@ class AddUserComponent extends Component {
                     <TextField type="text" placeholder="please input your username" name="name"
                                fullWidth margin="normal" value={this.state.name} onChange={this.onChange}/>
 
-                    
-
                     <TextField placeholder="please input your first name" name="f_name"
                                fullWidth margin="normal" value={this.state.f_name} onChange={this.onChange}/>
 

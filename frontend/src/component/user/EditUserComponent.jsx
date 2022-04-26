@@ -54,7 +54,7 @@ class EditUserComponent extends Component {
 
         let user = {
             id: this.state.id,
-            name : this.state.name,
+            name: this.state.name,
             f_name: this.state.f_name,
             l_name: this.state.l_name,
             age: this.state.age,

@@ -22,6 +22,8 @@ public class MemberController {
         return memberService.list();
     }
 
+    // rest api : 하나의 url 패턴으로 crud
+
     /* insert */
     @PostMapping
     public void insert(@RequestBody Member member) {
